@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-family: 'Elephant', serif;
+    font-style: italic;
+    font-size: 65px;
+    margin-left: 325px;
+}
+.input-phrase{
+    font-family: 'Arial', serif;
+    margin-left: 425px;
+}
+#button{
+    margin-top: 175px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+#res{
+    margin-top: 50px;
+    background-color: #ca934b;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    margin-left: 480px;
+}
