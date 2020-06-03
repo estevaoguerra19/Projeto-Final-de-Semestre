@@ -4,14 +4,13 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-style: italic;
     font-size: 65px;
-    margin-left: 325px;
+    text-align: center;
 }
 
 .input-phrase {
     font-family: 'Kanit', sans-serif;
-    margin-left: 425px;
+    text-align: center;
 }
 
 #button {
