@@ -6,24 +6,33 @@ h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 65px;
     text-align: center;
-}
+    color: #192547;
 
+}
+img {
+    width: 400px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: 15px;
+
+}
 .input-phrase {
     font-family: 'Kanit', sans-serif;
-    text-align: center;
+    margin-left: 405px;
 }
 
 #button {
+    margin-top: 10px;
     margin-left: 10px;
-    margin-top: 175px;
     cursor: pointer;
+    border-radius: 2px;
     border: none;
     text-transform: uppercase;
     font-weight: 700;
     padding: 10px;
     background: #4c85a0;
     color: #ffffff;
-    
 }
 
 #button:hover {
@@ -32,11 +41,13 @@ h1 {
 }
 
 #res {
-    margin-top: 50px;
+    font-family: 'Satisfy', cursive;
+    font-size: 21px;
+    margin-top: 25px;
     background-color: #4e6475;
     border-radius: 15px;
-    text-align: center;
     width: 300px;
     margin-left: 480px;
     text-align: center;
+    position: absolute;
 }

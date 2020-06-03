@@ -2,7 +2,7 @@ function calcular() {
     var txtv = window.document.querySelector('input#txtvel');
     var res = window.document.querySelector('div#res');
     var vel = Number(txtv.value);
-    res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}Km/h</strong></p>`
+    res.innerHTML = `<p>Você está em uma pista de <strong>80Km/h</strong>.<br><br>Sua velocidade atual é de <strong>${vel}Km/h</strong></p>`
     if (vel >= 80) {
        res.innerHTML += `<p>Você está <strong>MULTADO</strong> por excesso de velocidade!</p>`
     }else if (vel < 80 && vel >= 20) {
@@ -12,5 +12,5 @@ function calcular() {
             }else {
                 res.innerHTML += `<p>Insira um valor válido.</p>`
                 }
-                res.innerHTML += `<p>Dirija sempre com cinto de segurança e <strong>BEBA COM MODERAÇÃO!</strong></p>`
+                res.innerHTML += `<p>Dirija sempre com cinto de segurança. <strong>BEBA COM MODERAÇÃO!</strong></p>`
 }
