@@ -1,4 +1,4 @@
-1function calcular() {
+function calcular() {
     var txtv = window.document.querySelector('input#txtvel');
     var res = window.document.querySelector('div#res');
     var vel = Number(txtv.value);
