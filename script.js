@@ -10,7 +10,7 @@ function calcular() {
         }else if (vel > 0 && vel < 20) {
             res.innerHTML += `<p>Por favor, acelere a velocidade, você pode causar um acidente.</p>`
             }else {
-                res.innerHTML += `<p>Insira um valor válido.</p>`
+                res.innerHTML = `<p>Insira um valor válido.</p>`
                 }
-                res.innerHTML += `<p>Dirija sempre com cinto de segurança. <strong>BEBA COM MODERAÇÃO!</strong></p>`
+                res.innerHTML += `<p id="answer">Dirija sempre com cinto de segurança. <strong>BEBA COM MODERAÇÃO!</strong></p>`
 }
