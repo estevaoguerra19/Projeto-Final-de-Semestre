@@ -1,5 +1,7 @@
 body {
     background-color: rgb(196, 196, 196);
+    max-width: 1500px;
+    max-height: 500px;
 }
 
 h1 {
@@ -14,15 +16,22 @@ img {
     width: 400px;
     height: 300px;
 
-    margin-top: 5px;
-    margin-left: 450px;
-    margin-bottom: 15px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
 
 }
+
+#answer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .input-phrase {
     font-family: 'Kanit', sans-serif;
-
-    margin-left: 405px;
     
     position: fixed;
 }
